@@ -1,0 +1,18 @@
+2021-02-16 16:26:33.473 Clear buffer        Info    0   : 
+2021-02-16 16:26:33.775 Function request 20 Send    40  : [2].560000000001020000[28]40.[18]000000005020[28][3][18]
+2021-02-16 16:26:33.775 Hex format          Send    120 : 02 00 35 36 30 30 30 30 30 30 30 30 30 31 30 32 30 30 30 30 1C 34 30 00 12 30 30 30 30 30 30 30 30 35 30 32 30 1C 03 12 
+2021-02-16 16:26:34.322 Data received (end) Receive 3   : 06 
+2021-02-16 16:26:34.447 Message Status      Info    4   : SENT
+2021-02-16 16:26:36.096 Message Status      Info    4   : WAIT
+2021-02-16 16:26:37.722 Message Status      Info    4   : WAIT
+2021-02-16 16:26:39.334 Message Status      Info    4   : WAIT
+2021-02-16 16:26:40.960 Message Status      Info    4   : WAIT
+2021-02-16 16:26:42.523 Data received (end) Receive 48  : 02 04 82 36 30 30 30 30 30 30 30 30 30 31 31 32 
+2021-02-16 16:26:42.648 Message Status      Info    4   : WAIT
+2021-02-16 16:26:42.648 Loop                Send    25  : ByteArrayLength < MsgLen 
+2021-02-16 16:26:42.663 Loop                Send    8   : 16 < 487
+2021-02-16 16:26:42.663 Response code       Info    5   :    = 
+2021-02-16 16:26:42.742 ACK                 Send    1   : [6]
+
+WHILE ByteArrayLength < MsgLen DO BEGIN
+Retry
